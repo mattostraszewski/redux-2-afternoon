@@ -9,5 +9,5 @@ const rootReducer = combineReducers({
 })
 
 export default createStore(
-  rootReducer, applyMiddleware(promiseMiddleware)
+  rootReducer, applyMiddleware(promiseMiddleware) //allows our user to use axios
 )
